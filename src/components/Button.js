@@ -44,7 +44,7 @@ const Button = ({
     <TouchableOpacity
       style={[
         styles.button,
-        {backgroundColor: disabled ? '#ccc' : backgroundColor, borderRadius},
+        {backgroundColor: disabled ? '#1e282d' : backgroundColor, borderRadius},
         fullWidth && {width: '100%'},
         style,
       ]}
@@ -87,7 +87,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginVertical: 8,
+    // borderWidth: 1,
+    borderColor: 'white',
   },
+
   content: {
     flexDirection: 'row',
     alignItems: 'center',

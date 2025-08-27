@@ -81,23 +81,23 @@ const styles = StyleSheet.create({
   label: {
     fontSize: 14,
     marginBottom: 6,
-    color: '#333',
+    color: 'white',
     fontWeight: '500',
   },
   inputWrapper: {
     flexDirection: 'row',
     alignItems: 'center',
-    borderWidth: 1,
+    // borderWidth: 1,
     borderColor: '#ccc',
     borderRadius: 8,
-    backgroundColor: '#fff',
+    backgroundColor: '#282828',
     paddingHorizontal: 10,
   },
   input: {
     flex: 1,
     fontSize: 16,
     paddingVertical: 10,
-    color: '#000',
+    color: 'white',
   },
   icon: {
     marginHorizontal: 5,

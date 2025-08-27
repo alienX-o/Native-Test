@@ -1,19 +1,11 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import {ScrollView, StyleSheet, Text, View} from 'react-native';
+import React, {useState} from 'react';
+import Login from './src/screens/Login';
+import {getReq} from './src/services/apiService';
 import Button from './src/components/Button';
-import Input from './src/components/Input';
-
 const App = () => {
-  return (
-    <View>
-      <Input placeholder={'Enter Username'}></Input>
-      <Input placeholder={'Enter Password'}></Input>
-
-      <Button title={'Login'} iconRight="logo-instagram"></Button>
-    </View>
-  );
+  return <Login></Login>;
 };
 
 export default App;
-
 const styles = StyleSheet.create({});
